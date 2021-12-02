@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#def0ff"
+    tools:context=".MedicineActivity">
+
+
+    <Button
+        android:id="@+id/backfrommedicine"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="360dp"
+        android:backgroundTint="#C80F1E"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:text="."/>
+
+    <SearchView
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/searchview_background"
+        android:queryBackground="@android:color/transparent"
+        android:queryHint="Search Medicine" />
+
+
+    <ListView
+        android:id="@+id/medicinelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+</LinearLayout>

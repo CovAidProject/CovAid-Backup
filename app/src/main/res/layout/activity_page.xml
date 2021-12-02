@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#def0ff"
+    tools:context=".PageActivity">
+
+
+    <Button
+        android:id="@+id/beds"
+
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#def0ff"
+        android:drawableLeft="@drawable/ic_baseline_bedroom_child_24"
+        android:layout_marginLeft="50dp"
+        android:text="."/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="500dp"
+        android:text="Logout" />
+
+
+
+    <Button
+        android:id="@+id/vaccine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="200dp"
+        android:text="Vaccine" />
+
+    <Button
+        android:id="@+id/plasma"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+
+        android:text="Plasma" />
+
+    <Button
+        android:id="@+id/medicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="250dp"
+        android:text="Medicine" />
+
+    <Button
+        android:id="@+id/oxygen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="300dp"
+        android:text="Oxygen" />
+    />
+
+</GridLayout>
