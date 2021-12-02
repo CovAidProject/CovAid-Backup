@@ -44,7 +44,7 @@ public class PageActivity extends AppCompatActivity {
         beds.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(PageActivity.this,BedsActivity.class));
+                startActivity(new Intent(PageActivity.this,userlist.class));
             }
         });
         plasma.setOnClickListener(new View.OnClickListener() {
